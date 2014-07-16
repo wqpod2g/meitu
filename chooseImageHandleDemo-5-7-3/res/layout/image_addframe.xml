@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_edit"
+    android:orientation="vertical" >
+    
+ <include layout="@layout/layout_title" />
+ 
+ <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+        
+		<ImageView 
+			android:id="@+id/choose_image"       
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>    
+        
+    </LinearLayout>
+    
+ 
+ <HorizontalScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+ <LinearLayout 
+	    android:id="@+id/frame_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+    
+        android:background="@drawable/popup">
+	    
+	    <Button
+            android:id="@+id/frame_button_one"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_1"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_one"
+            
+            android:background="@android:color/transparent"/>
+        
+        <Button
+            android:id="@+id/frame_button_two"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_2"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_two"
+            android:background="@android:color/transparent"/>
+        
+        <Button
+            android:id="@+id/frame_button_three"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_3"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_three"
+            android:background="@android:color/transparent"/>
+        
+        <Button
+            android:id="@+id/frame_button_fore"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_4"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_four"
+            android:background="@android:color/transparent"/>
+        
+        <Button
+            android:id="@+id/frame_button_five"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_5"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_five"
+            android:background="@android:color/transparent"/>
+        
+         <Button
+            android:id="@+id/frame_button_six"          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/btn_frame_6"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_frame_six"
+            android:background="@android:color/transparent"/>
+	    
+	</LinearLayout>
+	 </HorizontalScrollView>
+ 
+ 
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_edit"
+    android:orientation="vertical" >
+    
+     <include layout="@layout/layout_title" />
+
+  <FrameLayout
+       android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+      
+       <ImageView
+            android:id="@+id/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_gravity="center"
+            android:src="@drawable/img_bg2" />
+      
+        <ImageView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="true"
+            />
+        <ImageView
+            android:id="@+id/love2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="true"
+            />
+        
+       </FrameLayout>
+   
+
+   
+    <Button
+            android:id="@+id/add_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:text="@string/add_image" />
+
+</LinearLayout>

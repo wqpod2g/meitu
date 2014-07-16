@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg_edit">
+	
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="42dip"
+    android:drawingCacheQuality="high"   
+    android:background="@drawable/head">
+    <Button 
+        android:id="@+id/back_home"
+        android:layout_width="58dip"
+        android:layout_height="32dip"
+        android:onClick="onClick"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/home"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/icon_home"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/btn_account_huoqu_tel_a"/>  
+
+    <Button 
+        android:id="@+id/save_as"
+        android:layout_width="58dip"
+        android:layout_height="32dip"
+        android:onClick="onClick"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/save"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/btn_account_huoqu_tel_a" />
+
+
+</RelativeLayout> 
+	
+    
+    
+    <TextView
+	    android:id="@+id/TV_Info"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:textColor="#ff000000"
+	    android:gravity="center"
+	    android:textSize="15sp" />
+ 
+  
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+        
+		<ImageView
+		    android:contentDescription="@string/desc"
+			android:id="@+id/choose_image"       
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>    
+        
+    </LinearLayout>  
+    
+	
+	
+	  
+	
+	
+	<HorizontalScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+	<LinearLayout
+	    android:id="@+id/effert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/popup"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/edit"            
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:textColor="@android:color/white"
+	        android:textSize="12sp"
+	        android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_mainmenu_edit_press"/>
+        
+        <Button
+            android:id="@+id/tone"          
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tone"
+            android:textColor="@android:color/white"
+	        android:textSize="12sp"
+	        android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_mainmenu_color_press"/>
+        
+        <Button
+            android:id="@+id/effect"          
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/effect"
+            android:textColor="@android:color/white"
+	        android:textSize="12sp"
+	        android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_effect"/>
+        
+        <Button
+            android:id="@+id/frame"        
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/frame"
+            android:textColor="@android:color/white"
+	        android:textSize="12sp"
+	        android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/btn_mainmenu_frame_press"/>
+        
+        <Button
+            android:id="@+id/share"        
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:textColor="@android:color/white"
+	        android:textSize="12sp"
+	        android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/logo_qzone"/>
+        
+    </LinearLayout>
+    </HorizontalScrollView>
+	
+    
+	    
+	
+</LinearLayout>

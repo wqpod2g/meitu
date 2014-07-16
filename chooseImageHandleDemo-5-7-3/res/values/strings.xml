@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">照片制作</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">照片制作</string>
+    <string name="choose_image">从相册中选取</string>
+    <string name="choose_camera">从摄像头捕获</string>
+    <string name="no_found">没有找到图片</string>
+    <string name="home">首页</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="edit">编辑</string>
+    <string name="tone">调色</string>
+    <string name="frame">边框</string>
+     <string name="about_me">关于我</string>
+      <string name="add_image">添加照片</string>
+    <string name="load_failure">图片加载失败</string>
+    <string name="saturation">饱和度</string>
+    <string name="brightness">亮 度</string>
+    <string name="contrast">对比度</string>
+    <string name="crop">剪切</string>
+    <string name="leftrotate">左旋</string>
+    <string name="rightrotate">右旋</string>
+    <string name="horizontalrotate">水平翻转</string>
+    <string name="verticalrotate">垂直翻转</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+    <string name="rotation">旋转</string>
+    <string name="reversion">反转</string>
+    <string name="zoom">缩放</string>
+    <string name="wait">请稍等</string>
+    <string name="effect">特效</string>
+    <string name="old_remeber">怀旧</string>
+    <string name="sharpen">锐化</string>
+    <string name="blur">模糊</string>
+    <string name="overlay">叠加</string>
+    <string name="film">底片</string>
+    <string name="emboss">浮雕</string>
+    <string name="sunshine">光照</string>
+    <string name="neon">霓虹</string>
+    <string name="halo">光晕</string>
+    <string name="share">一键分享</string>
+    <string name="btn_frame_1">炫彩边框</string>
+    <string name="btn_frame_2">简单边框</string> 
+    <string name="btn_frame_3">彩带一</string> 
+    <string name="btn_frame_4">彩带二</string> 
+    <string name="btn_frame_5">白框</string> 
+    <string name="btn_frame_6">黑框</string>
+      <string name="desc">desc</string>           
+    <string name="no_sd_card">未找到SD卡</string>
+
+</resources>
