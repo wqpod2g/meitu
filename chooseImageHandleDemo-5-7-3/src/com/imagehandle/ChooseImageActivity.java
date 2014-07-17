@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 /**
  * 
- * @author wangqiang
+ * @author mrpod2g
  * 
  * 
  */
@@ -26,7 +26,7 @@ public class ChooseImageActivity extends Activity{
     //ImageView imv;
 	private static final int FLAG_CHOOSE = 1;
 	private static final int FLAG_CHOOSE2 = 2;
-	static String imageFilePath;
+	static String imageFilePath;   
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
